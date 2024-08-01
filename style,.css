@@ -1,0 +1,87 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d8cbcb;
+  }
+  
+  .main-div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h3 {
+    margin: 0 0 20px;
+  }
+  
+  .button-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-div button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-div img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s;
+    border-radius: 50%;
+  }
+  
+  .button-div img:hover {
+    transform: scale(1.1);
+  }
+  
+
+.reset-button {
+    background: linear-gradient(135deg, #cf1b1b, #ff0000);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition:  0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reset-button:hover {
+    background: linear-gradient(135deg, #c41818, #dd0404);
+    transform: scale(1.05);
+  }
+  
+  .display-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .display-result, .display-score {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .display-result img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  
